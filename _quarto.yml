@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: docs
+  resources: 
+    - "*.png"
+    - "*.jpeg"
+    - "*.svg"
+    - "*.pdf"
+    - CNAME
+
+website:
+  title: "KAU MELON"
+  favicon: images/cover.jpg
+  site-url: https://www.jostapubs.com/
+  # repo-url: https://github.com/STATOBERRYPAPAYA/JOSTA/
+  # open-graph:
+  #   image: images/cover.jpg
+  #   image-alt: "JOSTA Volume 1 Cover"
+  # twitter-card:
+  #   image: images/papayalogo.png
+  #   image-alt: "JOSTA Journal"
+  #   card-style: summary_large_image  
+  page-footer:
+    border: true
+    left: |
+      Published by PAPAYA publishing <a href="https://www.statoberry.com/papaya">![](/images/papayalogo.png){style='width: auto; height: 25px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;'}</a>
+    center: |
+      <a href="https://www.statoberry.com/papaya">![](/images/Josta.png){style='height: 90px;'}</a>
+    right: |
+      Licenced under [CC-BY-NC-ND 4.0 Int License](https://creativecommons.org/licenses/by-nc-nd/4.0/) <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">![](/images/cclogo.png){style='width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;'}</a>
+      Built with <a href="https://quarto.org/">Quarto</a>
+  reader-mode: true
+  page-navigation: true
+  back-to-top-navigation: true
+
+format:
+  html:
+    theme:
+      light:
+        - lumen
+      dark:
+        - slate
+    toc: true
+    number-sections: true
+    highlight-style: arrow
+    monofont: Fira Code
+    mainfont: Georgia
+    monobackgroundcolor: "#364530"
+    math: mathjax
+execute:
+  freeze: auto
+  echo: false
+editor: visual

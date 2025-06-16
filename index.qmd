@@ -1,0 +1,11 @@
+
+## Undergraduate programmes e-book  {.unnumbered}  
+
+<a href="textbookofagstat.qmd">
+    <img src="images/cover.jpg" alt="Textbook of Agricultural Statistics" width="50px">
+  </a>
+
+Click the image above to open the full book.
+
+
+
